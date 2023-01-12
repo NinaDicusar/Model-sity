@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Block Model Example - City</title>
+  <style>
+    #square{
+      width: 600px;
+      height: 600px;
+      border: 10px solid #999;
+      padding: 10px;
+
+    
+    }
+    #park{
+      width: 400px;
+      height: 400px;
+      background-color: lightgreen;
+      
+    
+      /* ??? */
+     
+       }
+    #building-1{
+      width: 180px;
+      height: 400px;
+      background-color: lightblue;
+      /* ??? */margin-left: 400px;
+      margin-top: -400px;
+    
+      border-left: 20px solid green;
+      
+      
+
+      
+     
+    }
+    #building-2{
+      width: 400px;
+      height: 180px;
+      background-color: lightblue;
+      /* ??? */
+     border-top: 20px solid green ;
+    
+    
+    }
+    #market{
+      background-color: lightgrey;
+      /*  ???  */
+      width: 180px;
+      height: 180px;
+      margin-left: 400px;
+      margin-top: -200px;
+      border-top :20px solid green;
+      border-left: 20px solid green;
+    }
+    #market .monument{
+      font-size: 50px;
+      /* ??? */
+      text-align: center;
+      vertical-align: top;
+        line-height: 150px;
+
+    }
+    #park .tree{
+      font-size: 50px;
+      color: green;
+      /* ??? */;
+      display: inline-block;
+      margin-top: 80px;
+       margin-left: 50px;
+      
+
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <section id="square">
+
+    <div id="park">
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+    </div>
+    <div id="building-1"></div>
+    <div id="building-2"></div>
+    <div id="market">
+      <div class="monument">
+        &#9816;
+      </div>
+    </div>
+
+  </section>
+
+
+</body>
+</html>
